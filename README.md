@@ -64,6 +64,6 @@ Tests localStorage persistence logic.
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:developerrahul27/Random-Use--Detail.git
 cd random-user-app
 ```
