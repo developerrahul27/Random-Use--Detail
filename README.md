@@ -34,14 +34,23 @@ It demonstrates clean architecture, reusable hooks, and component-based design w
 
 src/
 ├── api/
+
 │ └── fetchUserApi.ts # API call using Axios
+
 ├── components/
+
 │ └── UserCard.tsx # Reusable card to display user info
+
 ├── hooks/
+
 │ └── useUser.ts # Custom hook to manage user fetching logic
+
 ├── App.tsx # Main component
+
 ├── main.tsx # App entry point
+
 └── **tests**/
+
 └── App.test.tsx # Test cases for components and hooks
 
 ## ⚙️ Setup Dependencies
