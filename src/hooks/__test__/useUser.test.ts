@@ -5,7 +5,6 @@ import { useUser } from "../useUser";
 import { fetchUserApi } from "../../api-services/fetchUser";
 import type { ApiResponse } from "../../types";
 
-// ✅ Mock the fetchUserApi
 vi.mock("../../api-services/fetchUser", () => ({
   fetchUserApi: vi.fn(),
 }));
